@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a368c404-3ed3-4abc-b229-88a6a8bb4e2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ReentrantLock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ReentrantLock/SharedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ReadWriteLock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ReadWriteLock/SharedResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     "Application.Main.executor": "Run",
     "Application.org.shruti.Multithreading.Main.executor": "Run",
     "Application.org.shruti.multithreading.Condition.Main.executor": "Run",
+    "Application.org.shruti.multithreading.ReadWriteLock.Main.executor": "Run",
     "Application.org.shruti.multithreading.SemaphoreLock.Main.executor": "Run",
     "Application.org.shruti.multithreading.Synchronized.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -65,20 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.producerConsumerProblem.Driver" />
-      <module name="LLD_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.shruti.multithreading.producerConsumerProblem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.shruti.multithreading.ReadWriteLock.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.ReentrantLock.Main" />
       <module name="LLD_code" />
@@ -98,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.shruti.multithreading.Condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.shruti.multithreading.ReadWriteLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.ReadWriteLock.Main" />
+      <module name="LLD_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.shruti.multithreading.ReadWriteLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.shruti.multithreading.ReadWriteLock.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.shruti.multithreading.Synchronized.Main" />
         <item itemvalue="Application.org.shruti.multithreading.Condition.Main" />
         <item itemvalue="Application.org.shruti.multithreading.SemaphoreLock.Main" />
-        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726336257019</updated>
-      <workItem from="1726336258057" duration="4308000" />
+      <workItem from="1726336258057" duration="4868000" />
     </task>
     <servers />
   </component>
