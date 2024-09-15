@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a368c404-3ed3-4abc-b229-88a6a8bb4e2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ReadWriteLock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ReadWriteLock/SharedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/StampedLock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/StampedLock/SharedResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2m4WJATOkzsXp55q203CUermusm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,6 +44,7 @@
     "Application.org.shruti.multithreading.Condition.Main.executor": "Run",
     "Application.org.shruti.multithreading.ReadWriteLock.Main.executor": "Run",
     "Application.org.shruti.multithreading.SemaphoreLock.Main.executor": "Run",
+    "Application.org.shruti.multithreading.StampedLock.Main.executor": "Run",
     "Application.org.shruti.multithreading.Synchronized.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.shruti.multithreading.ReadWriteLock.Main">
+  <component name="RunManager" selected="Application.org.shruti.multithreading.StampedLock.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.ReentrantLock.Main" />
       <module name="LLD_code" />
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.shruti.multithreading.SemaphoreLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.SemaphoreLock.Main" />
+    <configuration name="org.shruti.multithreading.StampedLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.StampedLock.Main" />
       <module name="LLD_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.shruti.multithreading.SemaphoreLock.*" />
+          <option name="PATTERN" value="org.shruti.multithreading.StampedLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.shruti.multithreading.StampedLock.Main" />
         <item itemvalue="Application.org.shruti.multithreading.ReadWriteLock.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.shruti.multithreading.Synchronized.Main" />
         <item itemvalue="Application.org.shruti.multithreading.Condition.Main" />
-        <item itemvalue="Application.org.shruti.multithreading.SemaphoreLock.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +159,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726336257019</updated>
-      <workItem from="1726336258057" duration="4868000" />
+      <workItem from="1726336258057" duration="5123000" />
+      <workItem from="1726383411470" duration="29000" />
+      <workItem from="1726383456241" duration="635000" />
     </task>
     <servers />
   </component>
