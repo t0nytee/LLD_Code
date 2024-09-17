@@ -47,6 +47,7 @@
     "Application.Main.executor": "Run",
     "Application.ScheduledExecutor.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
+    "Application.org.shruti.DesignPatterns.Creational.Factory.Main.executor": "Run",
     "Application.org.shruti.Multithreading.Main.executor": "Run",
     "Application.org.shruti.multithreading.Condition.Main.executor": "Run",
     "Application.org.shruti.multithreading.Future.Main.executor": "Run",
@@ -78,25 +79,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.shruti.DesignPatterns.Creational.SingletonDesignPattern.DoubleCheckLocking" />
+      <recent name="org.shruti.DesignPatterns.Creational.SingletonDesignPattern.Synchronized" />
       <recent name="org.shruti.SnakeAndLadder" />
       <recent name="org.shruti.DesignPatterns.Behavioral.StrategyDesignPattern.WithStrategy" />
       <recent name="org.shruti.multithreading.ExecutorService" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.shruti.Multithreading.Future.CompletableFutureExample" />
-      <module name="LLD_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.shruti.Multithreading.Future.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.shruti.DesignPatterns.Creational.Factory.Main">
     <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.shruti.Multithreading.ForkJoinPool.ForkJoinExample" />
       <module name="LLD_code" />
@@ -111,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.shruti.DesignPatterns.Creational.PrototypeDesignPattern.Example1.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.shruti.DesignPatterns.Creational.Prototype.Example1.Main" />
       <module name="LLD_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.shruti.DesignPatterns.Creational.PrototypeDesignPattern.Example1.*" />
+          <option name="PATTERN" value="org.shruti.DesignPatterns.Creational.Prototype.Example1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,13 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.shruti.DesignPatterns.Creational.Factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shruti.DesignPatterns.Creational.Factory.Main" />
+      <module name="LLD_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.shruti.DesignPatterns.Creational.Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.shruti.DesignPatterns.Creational.Factory.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ForkJoinExample" />
         <item itemvalue="Application.ThreadLocalExample" />
         <item itemvalue="Application.ScheduledExecutor" />
-        <item itemvalue="Application.CompletableFutureExample" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +182,7 @@
       <workItem from="1726383456241" duration="3561000" />
       <workItem from="1726474623859" duration="5505000" />
       <workItem from="1726556254824" duration="3469000" />
-      <workItem from="1726587157968" duration="2422000" />
+      <workItem from="1726587157968" duration="4165000" />
     </task>
     <servers />
   </component>
