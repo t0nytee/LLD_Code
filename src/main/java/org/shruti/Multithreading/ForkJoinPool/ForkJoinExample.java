@@ -38,7 +38,7 @@ public class ForkJoinExample {
         // Create ForkJoinPool
 //        ForkJoinPool pool = new ForkJoinPool();
 
-        // uses work-stealing internally
+        // uses work-stealing internally)
         ForkJoinPool pool = ForkJoinPool.commonPool();
 
         // Create the main task
