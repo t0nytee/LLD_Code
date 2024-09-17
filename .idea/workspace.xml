@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a368c404-3ed3-4abc-b229-88a6a8bb4e2b" name="Changes" comment="" />
+    <list default="true" id="a368c404-3ed3-4abc-b229-88a6a8bb4e2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/SnakeAndLadder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/SnakeAndLadder/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +43,7 @@
     "Application.CallableExample.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
     "Application.Driver.executor": "Run",
+    "Application.ForkJoinExample.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ScheduledExecutor.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
@@ -72,11 +78,12 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.shruti.SnakeAndLadder" />
       <recent name="org.shruti.DesignPatterns.Behavioral.StrategyDesignPattern.WithStrategy" />
       <recent name="org.shruti.multithreading.ExecutorService" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalExample">
+  <component name="RunManager" selected="Application.ForkJoinExample">
     <configuration name="CallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.shruti.Multithreading.Future.CallableExample" />
       <module name="LLD_code" />
@@ -103,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.shruti.Multithreading.Future.FutureExample" />
+    <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shruti.Multithreading.ForkJoinPool.ForkJoinExample" />
       <module name="LLD_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.shruti.Multithreading.Future.*" />
+          <option name="PATTERN" value="org.shruti.Multithreading.ForkJoinPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForkJoinExample" />
         <item itemvalue="Application.ThreadLocalExample" />
         <item itemvalue="Application.ScheduledExecutor" />
         <item itemvalue="Application.CompletableFutureExample" />
         <item itemvalue="Application.CallableExample" />
-        <item itemvalue="Application.FutureExample" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +179,7 @@
       <workItem from="1726383456241" duration="3561000" />
       <workItem from="1726474623859" duration="5505000" />
       <workItem from="1726556254824" duration="3469000" />
+      <workItem from="1726587157968" duration="1493000" />
     </task>
     <servers />
   </component>
