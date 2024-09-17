@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a368c404-3ed3-4abc-b229-88a6a8bb4e2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ExecutorService/ScheduledExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ThreadPoolExecutor/ThreadLocalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ExecutorService/ThreadPoolExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/ExecutorService/ThreadPoolExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     "Application.Driver.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ScheduledExecutor.executor": "Run",
+    "Application.ThreadLocalExample.executor": "Run",
     "Application.org.shruti.Multithreading.Main.executor": "Run",
     "Application.org.shruti.multithreading.Condition.Main.executor": "Run",
     "Application.org.shruti.multithreading.Future.Main.executor": "Run",
@@ -77,7 +77,7 @@
       <recent name="org.shruti.multithreading.ExecutorService" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScheduledExecutor">
+  <component name="RunManager" selected="Application.ThreadLocalExample">
     <configuration name="CallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.Future.CallableExample" />
       <module name="LLD_code" />
@@ -130,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.shruti.multithreading.ThreadPoolExecutor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.ThreadPoolExecutor.Main" />
+    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shruti.multithreading.ThreadPoolExecutor.ThreadLocalExample" />
       <module name="LLD_code" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalExample" />
         <item itemvalue="Application.ScheduledExecutor" />
         <item itemvalue="Application.CompletableFutureExample" />
         <item itemvalue="Application.CallableExample" />
         <item itemvalue="Application.FutureExample" />
-        <item itemvalue="Application.org.shruti.multithreading.ThreadPoolExecutor.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,8 @@
       <workItem from="1726336258057" duration="5123000" />
       <workItem from="1726383411470" duration="29000" />
       <workItem from="1726383456241" duration="3561000" />
-      <workItem from="1726474623859" duration="4519000" />
+      <workItem from="1726474623859" duration="5505000" />
+      <workItem from="1726556254824" duration="618000" />
     </task>
     <servers />
   </component>
