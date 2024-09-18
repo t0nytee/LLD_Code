@@ -50,6 +50,7 @@
     "Application.org.shruti.DesignPatterns.Creational.AbstractFactory.Main.executor": "Run",
     "Application.org.shruti.DesignPatterns.Creational.Builder.Main.executor": "Run",
     "Application.org.shruti.DesignPatterns.Creational.Factory.Main.executor": "Run",
+    "Application.org.shruti.DesignPatterns.Structural.Decorator.Main.executor": "Run",
     "Application.org.shruti.Multithreading.Main.executor": "Run",
     "Application.org.shruti.multithreading.Condition.Main.executor": "Run",
     "Application.org.shruti.multithreading.Future.Main.executor": "Run",
@@ -88,20 +89,7 @@
       <recent name="org.shruti.multithreading.ExecutorService" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.shruti.DesignPatterns.Creational.Builder.Main">
-    <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.shruti.Multithreading.ForkJoinPool.ForkJoinExample" />
-      <module name="LLD_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.shruti.Multithreading.ForkJoinPool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.shruti.DesignPatterns.Structural.Decorator.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.shruti.DesignPatterns.Creational.Prototype.Example1.Main" />
       <module name="LLD_code" />
@@ -154,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.shruti.DesignPatterns.Structural.Decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shruti.DesignPatterns.Structural.Decorator.Main" />
+      <module name="LLD_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.shruti.DesignPatterns.Structural.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.shruti.DesignPatterns.Structural.Decorator.Main" />
         <item itemvalue="Application.org.shruti.DesignPatterns.Creational.Builder.Main" />
         <item itemvalue="Application.org.shruti.DesignPatterns.Creational.AbstractFactory.Main" />
         <item itemvalue="Application.org.shruti.DesignPatterns.Creational.Factory.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ForkJoinExample" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +185,7 @@
       <workItem from="1726383456241" duration="3561000" />
       <workItem from="1726474623859" duration="5505000" />
       <workItem from="1726556254824" duration="3469000" />
-      <workItem from="1726587157968" duration="6968000" />
+      <workItem from="1726587157968" duration="9031000" />
     </task>
     <servers />
   </component>
