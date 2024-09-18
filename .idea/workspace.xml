@@ -90,7 +90,20 @@
       <recent name="org.shruti.multithreading.ExecutorService" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.shruti.DesignPatterns.Structural.Proxy.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shruti.DesignPatterns.Structural.Composite.Main" />
+      <module name="LLD_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.shruti.DesignPatterns.Structural.Composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.shruti.DesignPatterns.Creational.AbstractFactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.shruti.DesignPatterns.Creational.AbstractFactory.Main" />
       <module name="LLD_code" />
@@ -110,19 +123,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.shruti.DesignPatterns.Creational.Builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.shruti.DesignPatterns.Creational.Factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.shruti.DesignPatterns.Creational.Factory.Main" />
-      <module name="LLD_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.shruti.DesignPatterns.Creational.Factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.shruti.DesignPatterns.Structural.Proxy.Main" />
         <item itemvalue="Application.org.shruti.DesignPatterns.Structural.Decorator.Main" />
         <item itemvalue="Application.org.shruti.DesignPatterns.Creational.Builder.Main" />
         <item itemvalue="Application.org.shruti.DesignPatterns.Creational.AbstractFactory.Main" />
-        <item itemvalue="Application.org.shruti.DesignPatterns.Creational.Factory.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +186,7 @@
       <workItem from="1726383456241" duration="3561000" />
       <workItem from="1726474623859" duration="5505000" />
       <workItem from="1726556254824" duration="3469000" />
-      <workItem from="1726587157968" duration="9745000" />
+      <workItem from="1726587157968" duration="10875000" />
     </task>
     <servers />
   </component>
