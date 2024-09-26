@@ -5,6 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a368c404-3ed3-4abc-b229-88a6a8bb4e2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/MatchType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/T20MatchType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/innings/BallDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/innings/BallType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/innings/InningDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/innings/OverDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/innings/RunType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/scoreUpdater/ScoreObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/scoreUpdater/impl/BattingScoreObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/scoreUpdater/impl/BowlingScoreObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/Wicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/WicketType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/player/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/player/PlayerBattingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/player/PlayerBowlingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/player/PlayerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/player/PlayerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/player/score/BattingScoreCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign/model/team/player/score/BowlingScoreCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,48 +57,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CallableExample.executor": "Run",
-    "Application.CompletableFutureExample.executor": "Run",
-    "Application.Driver.executor": "Run",
-    "Application.ForkJoinExample.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ScheduledExecutor.executor": "Run",
-    "Application.ThreadLocalExample.executor": "Run",
-    "Application.org.shruti.DesignPatterns.Creational.AbstractFactory.Main.executor": "Run",
-    "Application.org.shruti.DesignPatterns.Creational.Builder.Main.executor": "Run",
-    "Application.org.shruti.DesignPatterns.Creational.Factory.Main.executor": "Run",
-    "Application.org.shruti.DesignPatterns.Structural.Adapter.Main.executor": "Run",
-    "Application.org.shruti.DesignPatterns.Structural.Decorator.Main.executor": "Run",
-    "Application.org.shruti.DesignPatterns.Structural.Proxy.Main.executor": "Run",
-    "Application.org.shruti.Multithreading.Main.executor": "Run",
-    "Application.org.shruti.multithreading.Condition.Main.executor": "Run",
-    "Application.org.shruti.multithreading.Future.Main.executor": "Run",
-    "Application.org.shruti.multithreading.ReadWriteLock.Main.executor": "Run",
-    "Application.org.shruti.multithreading.SemaphoreLock.Main.executor": "Run",
-    "Application.org.shruti.multithreading.StampedLock.Main.executor": "Run",
-    "Application.org.shruti.multithreading.Synchronized.Main.executor": "Run",
-    "Application.org.shruti.multithreading.ThreadPoolExecutor.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/shruti.rani/Documents/coding/LLD_Code/src/main/java/org/shruti/multithreading/Future",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CallableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Driver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForkJoinExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScheduledExecutor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.DesignPatterns.Creational.AbstractFactory.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.DesignPatterns.Creational.Builder.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.DesignPatterns.Creational.Factory.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.DesignPatterns.Structural.Adapter.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.DesignPatterns.Structural.Decorator.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.DesignPatterns.Structural.Proxy.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.Multithreading.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.multithreading.Condition.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.multithreading.Future.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.multithreading.ReadWriteLock.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.multithreading.SemaphoreLock.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.multithreading.StampedLock.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.multithreading.Synchronized.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.shruti.multithreading.ThreadPoolExecutor.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shruti.rani/Documents/coding/LLD_Code/src/main/java/org/shruti/CricBuzzDesign&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/shruti/CricBuzzDesign" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/shruti/ATMDesign" />
       <recent name="$PROJECT_DIR$/src/main/java/org/shruti/multithreading/Future" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
@@ -186,6 +210,8 @@
       <workItem from="1726556254824" duration="3469000" />
       <workItem from="1726587157968" duration="11359000" />
       <workItem from="1727202371755" duration="955000" />
+      <workItem from="1727362259529" duration="1084000" />
+      <workItem from="1727365046642" duration="111000" />
     </task>
     <servers />
   </component>
