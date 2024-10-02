@@ -1,0 +1,13 @@
+package org.shruti.InventoryDesign;
+
+import org.shruti.InventoryDesign.model.Warehouse;
+
+import java.util.List;
+
+public class NearestWarehouseSelectionStrategy extends WarehouseSelectionStrategy{
+
+    @Override
+    public Warehouse selectWarehouse(List<Warehouse> warehouseList) {
+        return warehouseList.get(0);
+    }
+}
